@@ -21,11 +21,11 @@ let musicPlaying = false;
 
 musicBtn.addEventListener("click", () => {
   if (!musicPlaying) {
-    bgMusic.play();
+    bgMusic.pause();
     musicPlaying = true;
     musicBtn.textContent = "🔇 Mute";
   } else {
-    bgMusic.pause();
+    bgMusic.play();
     musicPlaying = false;
     musicBtn.textContent = "🎵 Music";
   }
