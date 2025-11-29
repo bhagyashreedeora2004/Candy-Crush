@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Untitled</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Horror Match-3 — Spooky Levels</title>
+
+  <!-- Horror Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="game-header">
+    <h1 class="game-title">Horror Match-3 — Spooky Levels</h1>
+
+    <div class="level-info">
+      <span>Level: <span id="levelNumber">1</span></span>
+      <span>Moves: <span id="movesLeft">30</span></span>
+      <span>Score: <span id="score">0</span></span>
+    </div>
+
+    <!-- ⭐ Music Toggle Button -->
+    <button id="musicBtn" class="music-btn">🎵 Music</button>
+  </header>
+
+  <div id="gameBoard" class="board"></div>
+
+  <div id="levelComplete" class="level-popup hidden">
+    <h2>Level Complete! 🎉</h2>
+    <button id="nextLevelBtn">Next Level</button>
+  </div>
+
+  <!-- Horror Background Music -->
+  <audio id="bgMusic" loop>
+    <source src="https://cdn.pixabay.com/download/audio/2023/02/28/audio_6dc32d2b4c.mp3?filename=horror-ambient-141797.mp3" type="audio/mpeg">
+  </audio>
+
+  <script src="game.js"></script>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
